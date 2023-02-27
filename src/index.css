@@ -1,5 +1,6 @@
 :root {
-  --btn-color: rgb(32, 109, 224);
+  --btn-color: rgb(33, 111, 228);
+  --secondary-btn-color: rgb(102, 234, 146);
 }
 
 body {
@@ -43,7 +44,15 @@ p {
 
 button {
   background-color: var(--btn-color);
-  border-width: 0px;
+  border-width: 2px;
   border-radius: 4px;
-  min-height: 20px;
+  min-height: 28px;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--secondary-btn-color);
+  cursor: pointer;
+  border-width: 1px;
+  padding: 1px 7px;
 }
