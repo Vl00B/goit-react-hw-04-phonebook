@@ -8,3 +8,7 @@
   width: 80px;
   min-height: 30px;
 }
+
+.submit_label {
+  max-width: 150px;
+}
